@@ -23,7 +23,7 @@ const getToDb = () => {
     if(getLocal){
         db = JSON.parse(getLocal);
     }
+    return db;
 }
 
-// export {addToDb, getToDb};
-export default addToDb
+export {addToDb, getToDb};
